@@ -1,0 +1,112 @@
+* {
+  background: var(--Background-Dark, #2f1893);
+  color: #ffff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+header > h2 {
+  color: #fff;
+
+  text-align: center;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.293px;
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul > li {
+  margin-left: 20px;
+  color: var(--Colors-White, #fff);
+  /* Text / Article */
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+button {
+  background-color: #482be7;
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 35px;
+  margin-left: 30px;
+}
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heroContainer > div > h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+
+  text-align: center;
+  /* Heading / H1 Hero */
+  font-family: "Poppins", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86px; /* 119.444% */
+  letter-spacing: -1px;
+}
+.heroContainer > div > p {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 145.455% */
+  text-align: center;
+}
+.ctaContainer {
+  display: flex;
+  flex-direction: column;
+}
+.from {
+  margin-top: 50px;
+}
+.from > input {
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  border: 2px solid var(--Colors-White, #fff);
+  opacity: 0.2;
+  padding: 10px 20px;
+}
+.from > button {
+  background-color: #25dac5;
+  padding: 12px 30px;
+  margin-left: 10px;
+}
+.ctaContainer > span {
+  color: #fff;
+  font-size: 10px;
+  font-style: normal;
+  line-height: 12px; /* 137.5% */
+  letter-spacing: -0.2px;
+  opacity: 0.3;
+  text-align: center;
+  margin-top: 20px;
+}

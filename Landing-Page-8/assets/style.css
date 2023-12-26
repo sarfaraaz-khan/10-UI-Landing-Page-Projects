@@ -1,0 +1,108 @@
+html,
+body {
+  color: #fff;
+}
+.curoselContainer {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.item > img {
+  max-height: 645px;
+}
+.contentContainer {
+  position: absolute;
+  top: 0;
+  left: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  padding: 25px;
+}
+a {
+  color: var(--Colors-White, #fff);
+  /* Buttons / Middle */
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  text-decoration: none !important;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+ul > li {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none !important;
+}
+ul > li > a {
+  text-decoration: none !important;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.home > h2 {
+  margin: 0px;
+  padding: 0px;
+  color: var(--Colors-White, #fff);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.293px;
+}
+.home > h1 {
+  margin: 0px;
+  padding: 0px;
+  color: var(--Colors-White, #fff);
+  text-align: center;
+  /* Heading / H1 Hero */
+  font-family: DM Sans;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86px; /* 119.444% */
+  letter-spacing: -1px;
+  margin-top: 30px;
+}
+.home > p {
+  margin: 0px;
+  padding: 0px;
+  color: var(--Colors-White, #fff);
+  text-align: center;
+  /* Heading / H5 Lead */
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 145.455% */
+  margin-top: 30px;
+}
+.contentContainer > button {
+  border: none;
+  outline: none;
+  background-color: #482be7;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: var(--Colors-White, #fff);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 22px;
+  margin-top: 20px;
+}
